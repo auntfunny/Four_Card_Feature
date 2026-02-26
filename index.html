@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Four Card Feature</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body class="flex flex-col justify-center items-center w-full min-h-screen bg-gray-50 font-poppins">
+    <main class="flex flex-col items-center w-xs md:w-2xl lg:w-6xl">
+      <div class="text-accGray1 text-center my-12 w-xs md:w-md lg:w-xl lg:mt-28 ">
+        <h1 class="text-[26px] lg:text-4xl ">
+          <span class="font-extralight">Reliable, efficient delivery</span><br /><strong
+            >Powered by Technology</strong
+          >
+        </h1>
+        <br>
+        <p>
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div >
+      <section class="grid grid-cols-1 md:gap-4 lg:gap-8 md:grid-cols-2 md:grid-rows-[264px_264px] lg:grid-cols-3 lg:grid-rows-1 lg:items-center">
+        <article class="relative w-xs bg-accWhite border-t-4 border-accCyan rounded-md h-60 p-8 shadow-xl text-accGray1 mb-10 hover:cursor-pointer hover:shadow-accCyan transition duration-300 ease-in-out" >
+          <h2 class="text-xl font-semibold mb-2">Supervisor</h2>
+          <p class="text-sm ">Moniters activity to identify project roadblocks</p>
+          <img src="/images/icon-supervisor.svg" alt="Supervisor Icon" class="absolute bottom-10 right-8">
+        </article>
+        <div>
+          <article class="relative w-xs bg-accWhite border-t-4 border-accRed rounded-md h-60 p-8 shadow-xl text-accGray1 mb-10 hover:cursor-pointer hover:shadow-accRed transition duration-300 ease-in-out">
+            <h2 class="text-xl font-semibold mb-2">Team Builder</h2>
+            <p class="text-sm ">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img src="/images/icon-team-builder.svg" alt="Team Builder Icon" class="absolute bottom-10 right-8">
+          </article>
+          <article class="relative w-xs bg-accWhite border-t-4 border-accOrange rounded-md h-60 p-8 shadow-xl text-accGray1 mb-10 hover:cursor-pointer hover:shadow-accOrange transition duration-300 ease-in-out">
+            <h2 class="text-xl font-semibold mb-2">Karma</h2>
+            <p class="text-sm ">Regularly evaluates our talent to ensure quality</p>
+            <img src="/images/icon-karma.svg" alt="Karma Icon" class="absolute bottom-10 right-8">
+          </article>
+        </div>
+        <article class=" relative w-xs bg-accWhite border-t-4 border-accBlue rounded-md h-60 p-8 shadow-xl text-accGray1 mb-10 hover:cursor-pointer hover:shadow-accBlue transition duration-300 ease-in-out">
+          <h2 class="text-xl font-semibold mb-2">Calculator</h2>
+          <p class="text-sm ">
+            Uses data from past projects to provide better delivery esitmates
+          </p>
+          <img src="/images/icon-calculator.svg" alt="Calculator Icon" class="absolute bottom-10 right-8">
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

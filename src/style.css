@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+@theme {
+
+    --color-accRed:hsl(0, 78%, 62%);
+    --color-accCyan:hsl(180, 62%, 55%);
+    --color-accOrange:hsl(34, 97%, 64%);
+    --color-accBlue:hsl(212, 86%, 64%);
+    --color-accGray1:hsl(234, 12%, 34%);
+    --color-accGray2:hsl(212, 6%, 44%);
+    --color-accWhite:hsl(0, 0%, 100%);
+
+    --font-poppins: "Poppins", serif;
+
+}
